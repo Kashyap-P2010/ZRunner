@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   overflow: hidden;
-  transition: transform 0.5s ease;  /* Smooth transition for the zoom effect */
 }
 
 #game-container {
