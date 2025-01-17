@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+  #game-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  #game-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(building.jpg);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #leaderboard {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 30%;
+    background: rgba(20, 20, 50, 0.9);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 10;
+  }
+  
+  #leaderboard-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #close-leaderboard-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  
+  #name-prompt {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 20;
+    text-align: center;
+  }

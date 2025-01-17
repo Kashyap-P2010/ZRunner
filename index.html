@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meteor Dodge Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="game-canvas"></canvas>
+    <button id="leaderboard-btn">Leaderboard</button>
+    <div id="leaderboard" class="hidden">
+      <h2>Leaderboard</h2>
+      <ol id="leaderboard-list"></ol>
+      <button id="close-leaderboard-btn">Close</button>
+    </div>
+    <div id="name-prompt" class="hidden">
+      <label for="player-name">Enter your name:</label>
+      <input type="text" id="player-name" />
+      <button id="submit-name-btn">Start Game</button>
+    </div>
+    <audio id="background-music" loop>
+      <source src="background.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
