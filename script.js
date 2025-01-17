@@ -59,7 +59,6 @@ function gameLoop() {
         alert(`Game Over! Your score: ${score}`);
         resetGame();
       } else {
-
         alert(`Ouch! Lives remaining: ${lives}`);
       }
 
